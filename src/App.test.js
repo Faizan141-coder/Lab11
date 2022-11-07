@@ -16,5 +16,5 @@ test('renders learn react link', () => {
 test('renders learn react link', () => {
   render(<App />);
   const linkElement = screen.getByTestId("comp");
-  expect(linkElement).toHaveClass("App");
+  expect(linkElement).toHaveTextContent("Car");
 });
